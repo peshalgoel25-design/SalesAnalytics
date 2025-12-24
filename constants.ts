@@ -1,6 +1,6 @@
 import { PromptExample } from './types';
 
-export const WEBHOOK_URL = 'https://wodit.app.n8n.cloud/webhook/371f7c5b-cf57-4339-9757-8213d369c2fd';
+export const WEBHOOK_URL = 'https://wodit.app.n8n.cloud/webhook/Production';
 
 export const LEADER_PROMPTS: PromptExample[] = [
   { id: 'l1', category: 'leader', text: 'Which salesperson generated the highest total revenue in CY25?' },
@@ -20,6 +20,6 @@ export const SALES_PROMPTS: PromptExample[] = [
   { id: 's6', category: 'sales', text: 'My rating was downgraded due to limited assessability from frequent approved leave. Is this allowed?' },
 ];
 
-export const APP_NAME = 'iSales.Ai';
+export const APP_NAME = 'iSales';
 export const APP_SUBTITLE = 'Welcome! Ask policy or performance questions';
 export const DISCLAIMER_TEXT = 'Responses are based on policy rules and available records. If details are missing, the assistant may ask follow-ups.';
